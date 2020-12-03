@@ -31,10 +31,10 @@ def traverse(mat, routes=None):
             col -= max_col 
         char = mat[row][col]
         if char == '#':
-            mat[row][col] = 'X'
+            #mat[row][col] = 'X'
             count += 1
-        else:
-            mat[row][col] = 'O' 
+        #else:
+        #    mat[row][col] = 'O' 
     return count
 
 
