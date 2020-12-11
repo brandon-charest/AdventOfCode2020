@@ -40,7 +40,7 @@ def decode(data, preamble):
             window.append(data[i])
 
 
-with open("./input.txt") as f:
+with open("./test.txt") as f:
     data = f.read().split("\n")
     data = [int(x) for x in data]
 
